@@ -1,33 +1,72 @@
-Strata by HTML5 UP
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+It is a free HTML CSS template by https://templatesjungle.com/
+You can use this template as a starter template and start building as you require.
+
+The code is consistent and can be easily maintained as we have followed a good coding standard. We want everyone to easily understand it and modify it according to their requirement. As the main goal of providing these templates is to give you something to work on before even starting.
+
+Preview URL: 
+https://demo.templatesjungle.com/natalie/
+
+Get the Full Version here: 
+https://templatesjungle.gumroad.com/l/natalie-developer-portfolio-html-css-website-template
+
+DOCUMENTATION:
+
+https://docs.templatesjungle.com/
 
 
-A simple, minimalist template that actually began life as an unused redesign of my
-personal site. Includes a (configurable) parallax background effect, Poptrox-powered
-lightbox gallery, a bunch of pre-styled elements, and Sass sources for the Sass-inclined.
+FREE FOR BOTH PERSONAL AND COMMERCIAL USE
 
-Demo images* courtesy of Unsplash, a radtastic collection of CC0 (public domain) images
-you can use for pretty much whatever.
+This HTML Template is provided by TemplatesJungle.com and is free to use in both personal and commercial projects as long as you don't remove our credit link in the footer.
 
-(* = Not included)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-PS: Not sure how to get that contact form working? Give formspree.io a try (it's awesome).
+However, you can remove the credit link by paying for PRO version of the template which also includes additional pages.
 
 
-Credits:
+RIGHTS
 
-	Demo Images:
-		Unsplash (unsplash.com)
+You are allowed to use it in your personal projects and commercial projects.
 
-	Icons:
-		Font Awesome (fontawesome.io)
+You can modify and sell it to your clients.
 
-	Other:
-		jQuery (jquery.com)
-		Responsive Tools (github.com/ajlkn/responsive-tools)
+
+PROHIBITIONS
+
+You cannot remove the credit link which links back to templatesjungle.com if you downloaded free version.
+
+You are not permitted to resell or redistribute (paid or free) as it is. 
+
+You cannot use it to build premium templates, themes or any other goods to be sold on marketplaces.
+
+If you want to share the free resource in your blog, you must point it to original TemplatesJungle.com resource page. 
+
+You cannot host the download file in your website.
+
+
+SUPPORT
+
+You can contact us to report any bugs and errors in the template. We will try and fix them immediately although it's a free resource.
+
+Feel free to let us know about what you want to see in the future downloads. We will definitely give it a thought while creating our next freebie.
+
+
+CREDITS & REFERENCES
+
+https://getbootstrap.com/
+
+Stock Photos
+https://unsplash.com/
+https://www.freepik.com/
+https://www.pexels.com/
+
+Fonts
+Google fonts
+https://fonts.google.com/
+
+Icons
+https://iconify.design/
+
+JQuery Plugins
+Swiper Slider - https://swiperjs.com/
+AOS - https://michalsnik.github.io/aos/
+
+Thanks for downloading from TemplatesJungle.com !
+
