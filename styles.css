@@ -233,6 +233,17 @@ svg.social-icon:hover {
   pointer-events: none;
 }
 
+.about-btn {
+  background-color: #5b2e86;   /* simple darker purple */
+  color: #ffffff;
+}
+
+.about-btn:hover {
+  background-color: #4a246f;   /* slightly darker on hover */
+  color: #ffffff;
+}
+
+
 .button::before {
   --size: 0;
   content: '';
@@ -489,6 +500,40 @@ a.nav-link:hover {
   transform: scale(1.1);
 }
 
+/* Force portfolio thumbnails to be square without stretching */
+.portfolio-thumb-square {
+    position: relative;
+    width: 100%;
+    padding-top: 100%;            /* 1:1 aspect ratio (square) */
+    background-color: #ffffff;    /* white letterbox when image not square */
+    border-radius: 0.75rem;       /* similar to rounded-3 */
+    overflow: hidden;
+}
+
+/* Center and contain the image inside the square */
+.portfolio-thumb-square img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;          /* no cropping, no distortion */
+}
+
+/* For text-only squares like "Stay tuned!" */
+.portfolio-thumb-square-inner {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+/* --- HOVER EFFECT: zoom, don't move the card --- */
+.portfolio-thumb-square:hover img {
+    transform: translate(-50%, -50%) scale(1.08); /* zoom in from center */
+}
 
 /*---- portfolio-masonry page style start ----*/
 button.filter-button {

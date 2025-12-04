@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Natalie</title>
+    <title>Afonso – Portfolio</title>
 
     <!-- Link Swiper's CSS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
@@ -16,10 +16,8 @@
     <!--vendor css ================================================== -->
     <link rel="stylesheet" type="text/css" href="css/vendor.css">
 
-
     <!--Styles css ================================================== -->
     <link rel="stylesheet" href="styles.css">
-
 
     <!--Google Font css ================================================== -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,10 +27,26 @@
 
 <body>
 
+    <!-- SVG ICON SPRITE (added github symbol here too) -->
     <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
         <symbol id="page-add" viewBox="0 0 20 20">
             <path fill="currentColor"
                 d="M4 4a2 2 0 0 1 2-2h8a2 2 0 0 1 2 2v5.207A5.5 5.5 0 0 0 14.5 9a5.5 5.5 0 0 0-3.163 1H7.5a.5.5 0 0 0 0 1h2.757a5.48 5.48 0 0 0-1.254 3.675A5.48 5.48 0 0 0 10.257 18H6a2 2 0 0 1-2-2zm8.5 2h-5a.5.5 0 0 0 0 1h5a.5.5 0 0 0 0-1m2 13a4.5 4.5 0 1 0 0-9a4.5 4.5 0 0 0 0 9m0-7a.5.5 0 0 1 .5.5V14h1.5a.5.5 0 0 1 0 1H15v1.5a.5.5 0 0 1-1 0V15h-1.5a.5.5 0 0 1 0-1H14v-1.5a.5.5 0 0 1 .5-.5" />
+        </symbol>
+        <symbol id="multiple-pages" viewBox="0 0 24 24">
+            <g fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                <path d="M1.992 19h3m3 0h-3m0 0v-3m0 3v3M7 2h9.5L21 6.5V19" />
+                <path
+                    d="M11 22h5.5a1.5 1.5 0 0 0 1.5-1.5V8.749a.6.6 0 0 0-.176-.425l-3.148-3.148A.6.6 0 0 0 14.25 5H4.5A1.5 1.5 0 0 0 3 6.5V13" />
+                <path d="M14 5v3.4a.6.6 0 0 0 .6.6H18" />
+            </g>
+        </symbol>
+
+
+
+        <symbol id="pages" viewBox="0 0 24 24">
+            <path fill="currentColor"
+                d="M5 21q-.825 0-1.412-.587T3 19V5q0-.825.588-1.412T5 3h14q.825 0 1.413.588T21 5v14q0 .825-.587 1.413T19 21zm4.075-4.75L12 14.475l2.925 1.775l-.775-3.325l2.6-2.25l-3.425-.275L12 7.25l-1.325 3.15l-3.425.275l2.6 2.25z" />
         </symbol>
         <symbol id="contact" viewBox="0 0 14 14">
             <path fill="currentColor" fill-rule="evenodd"
@@ -71,6 +85,11 @@
             <path fill="currentColor"
                 d="M15.12 5.32H17V2.14A26 26 0 0 0 14.26 2c-2.72 0-4.58 1.66-4.58 4.7v2.62H6.61v3.56h3.07V22h3.68v-9.12h3.06l.46-3.56h-3.52V7.05c0-1.05.28-1.73 1.76-1.73" />
         </symbol>
+        <symbol id="github" viewBox="0 0 16 16">
+            <path fill="currentColor"
+                d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59c.4.07.55-.17.55-.38c0-.19-.01-.82-.01-1.49c-2.01.37-2.53-.49-2.69-.94c-.09-.23-.48-.94-.82-1.13c-.28-.15-.68-.52-.01-.53c.63-.01 1.08.58 1.23.82c.72 1.21 1.87.87 2.33.66c.07-.52.28-.87.51-1.07c-1.78-.2-3.64-.89-3.64-3.95c0-.87.31-1.59.82-2.15c-.08-.2-.36-1.02.08-2.12c0 0 .67-.21 2.2.82c.64-.18 1.32-.27 2-.27s1.36.09 2 .27c1.53-1.04 2.2-.82 2.2-.82c.44 1.1.16 1.92.08 2.12c.51.56.82 1.27.82 2.15c0 3.07-1.87 3.75-3.65 3.95c.29.25.54.73.54 1.48c0 1.07-.01 1.93-.01 2.2c0 .21.15.46.55.38A8.013 8.013 0 0 0 16 8c0-4.42-3.58-8-8-8Z" />
+        </symbol>
+
         <symbol id="instagram" viewBox="0 0 24 24">
             <path fill="currentColor"
                 d="M17.34 5.46a1.2 1.2 0 1 0 1.2 1.2a1.2 1.2 0 0 0-1.2-1.2m4.6 2.42a7.6 7.6 0 0 0-.46-2.43a4.9 4.9 0 0 0-1.16-1.77a4.7 4.7 0 0 0-1.77-1.15a7.3 7.3 0 0 0-2.43-.47C15.06 2 14.72 2 12 2s-3.06 0-4.12.06a7.3 7.3 0 0 0-2.43.47a4.8 4.8 0 0 0-1.77 1.15a4.7 4.7 0 0 0-1.15 1.77a7.3 7.3 0 0 0-.47 2.43C2 8.94 2 9.28 2 12s0 3.06.06 4.12a7.3 7.3 0 0 0 .47 2.43a4.7 4.7 0 0 0 1.15 1.77a4.8 4.8 0 0 0 1.77 1.15a7.3 7.3 0 0 0 2.43.47C8.94 22 9.28 22 12 22s3.06 0 4.12-.06a7.3 7.3 0 0 0 2.43-.47a4.7 4.7 0 0 0 1.77-1.15a4.85 4.85 0 0 0 1.16-1.77a7.6 7.6 0 0 0 .46-2.43c0-1.06.06-1.4.06-4.12s0-3.06-.06-4.12M20.14 16a5.6 5.6 0 0 1-.34 1.86a3.06 3.06 0 0 1-.75 1.15a3.2 3.2 0 0 1-1.15.75a5.6 5.6 0 0 1-1.86.34c-1 .05-1.37.06-4 .06s-3 0-4-.06a5.7 5.7 0 0 1-1.94-.3a3.3 3.3 0 0 1-1.1-.75a3 3 0 0 1-.74-1.15a5.5 5.5 0 0 1-.4-1.9c0-1-.06-1.37-.06-4s0-3 .06-4a5.5 5.5 0 0 1 .35-1.9A3 3 0 0 1 5 5a3.1 3.1 0 0 1 1.1-.8A5.7 5.7 0 0 1 8 3.86c1 0 1.37-.06 4-.06s3 0 4 .06a5.6 5.6 0 0 1 1.86.34a3.06 3.06 0 0 1 1.19.8a3.1 3.1 0 0 1 .75 1.1a5.6 5.6 0 0 1 .34 1.9c.05 1 .06 1.37.06 4s-.01 3-.06 4M12 6.87A5.13 5.13 0 1 0 17.14 12A5.12 5.12 0 0 0 12 6.87m0 8.46A3.33 3.33 0 1 1 15.33 12A3.33 3.33 0 0 1 12 15.33" />
@@ -105,18 +124,21 @@
         <div class="loader"></div>
     </div>
 
+    <!-- HEADER – same style as your index/about, with real links -->
     <nav id="header-nav" class="navbar navbar-expand-lg py-4 z-1" data-bs-theme="dark">
         <div class="container-fluid padding-side">
-            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt="logo"></a>
+            <a class="navbar-brand" href="index.html">
+                <img src="images/logo.png" alt="logo" style="height:100px; width:auto;">
+            </a>
 
             <button class="navbar-toggler shadow-none" type="button" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
                 <span class="navbar-toggler-icon"></span>
             </button>
+
             <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar"
                 aria-labelledby="offcanvasNavbarLabel">
                 <div class="offcanvas-header">
-                    <!-- <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5> -->
                     <button type="button" class="btn-close text-reset shadow-none" data-bs-dismiss="offcanvas"
                         aria-label="Close"></button>
                 </div>
@@ -124,7 +146,7 @@
                     <div class="d-lg-none">
                         <img src="images/banner-img.png" alt="img" class="img-fluid">
                         <div class="text-center">
-                            <a href="contact.html" class="btn button  text-white mt-4 position-relative pe-5"
+                            <a href="contact.html" class="btn button text-white mt-4 position-relative pe-5"
                                 data-aos="fade-up" data-aos-duration="1600">
                                 <span> Hire Me </span>
                                 <div class="position-absolute top-50 end-0 translate-middle-y me-3">
@@ -137,241 +159,148 @@
                     </div>
                     <ul class="d-flex list-unstyled justify-content-center mt-4">
                         <li>
-                            <a class="nav-link" href="#">
+                            <a class="nav-link" 
+                               href="https://www.facebook.com/profile.php?id=61578187833421"
+                               target="_blank" rel="noopener noreferrer">
                                 <svg class="social-icon" width="24" height="24">
                                     <use xlink:href="#facebook"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link ms-4" href="#">
+                            <a class="nav-link ms-4" 
+                               href="https://www.instagram.com/afonso_cc_/"
+                               target="_blank" rel="noopener noreferrer">
                                 <svg class="social-icon" width="24" height="24">
                                     <use xlink:href="#instagram"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link ms-4" href="#">
+                            <a class="nav-link ms-4" 
+                               href="https://github.com/AfonsoSCCarvalho"
+                               target="_blank" rel="noopener noreferrer">
                                 <svg class="social-icon" width="24" height="24">
-                                    <use xlink:href="#twitter"></use>
+                                    <use xlink:href="#github"></use>
                                 </svg>
                             </a>
                         </li>
                         <li>
-                            <a class="nav-link ms-4" href="#">
-                                <svg class="social-icon" width="24" height="24">
-                                    <use xlink:href="#skype"></use>
-                                </svg>
-                            </a>
-                        </li>
-                        <li>
-                            <a class="nav-link ms-4" href="#">
+                            <a class="nav-link ms-4" 
+                               href="https://www.linkedin.com/in/afonsosccarvalho/"
+                               target="_blank" rel="noopener noreferrer">
                                 <svg class="social-icon" width="24" height="24">
                                     <use xlink:href="#linkedin"></use>
                                 </svg>
                             </a>
                         </li>
-                        <li>
-                            <a class="nav-link ms-4" href="#">
-                                <svg class="social-icon" width="24" height="24">
-                                    <use xlink:href="#dribbble"></use>
-                                </svg>
-                            </a>
                     </ul>
                 </div>
             </div>
         </div>
     </nav>
 
+    <!-- HERO -->
+    <!-- HERO -->
     <section id="hero" class="padding-medium position-relative">
         <div class="container-fluid padding-side text-white">
             <div class="row flex-column gap-5 align-items-center">
                 <div class="col-lg-9">
                     <h1 class="banner-size fw-medium display-1 mb-4" data-aos="fade-up" data-aos-duration="1200">
-                        See <span class="text-primary"> My Works </span>
+                        See <span class="text-primary"> My Work </span>
                     </h1>
 
                     <p data-aos="fade-up" data-aos-duration="1400">
-                        Showcasing innovative, high-quality projects built with passion and precision.
+                        A selection of data, AI and aerospace projects I’ve built or contributed to.
                     </p>
                 </div>
+
+                <!-- PORTFOLIO: 2x2 layout, second slide with only 2 squares -->
                 <div class="col-lg-9" data-aos="fade-up" data-aos-duration="1400">
                     <div class="swiper portfolio-swiper">
                         <div class="swiper-wrapper">
+
+                            <!-- SLIDE 1 (4 items = 2 x 2) -->
                             <div class="swiper-slide">
                                 <div class="row">
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project1.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
+                                    <!-- 1. Patch_NF -->
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="image-zoom portfolio-thumb-square">
+                                            <a href="https://github.com/AfonsoSCCarvalho/Patch_NF"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <img src="images/project1_patch_nf.png" alt="Patch NF project" class="img-fluid">
+                                            </a>
                                         </div>
+                                        <h5 class="mt-2">Patch_NF</h5>
+                                        <p class="small text-muted">Patch-based normalizing flows & image modeling.</p>
                                     </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project2.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
+
+                                    <!-- 2. Spiderllama -->
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="image-zoom portfolio-thumb-square">
+                                            <a href="https://github.com/AfonsoSCCarvalho/Spiderllama"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <img src="images/project2_spiderllama.png" alt="Spiderllama project" class="img-fluid">
+                                            </a>
                                         </div>
+                                        <h5 class="mt-2">Spiderllama</h5>
+                                        <p class="small text-muted">LLM experiments & multi-tool reasoning.</p>
                                     </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project3.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
+
+                                    <!-- 3. PII_detection -->
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="image-zoom portfolio-thumb-square">
+                                            <a href="https://github.com/AfonsoSCCarvalho/PII_detection"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <img src="images/project3_PII.png" alt="PII detection project" class="img-fluid">
+                                            </a>
                                         </div>
+                                        <h5 class="mt-2">PII_detection</h5>
+                                        <p class="small text-muted">Detecting sensitive information at scale.</p>
                                     </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project4.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
+
+                                    <!-- 4. AI_Drone -->
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="image-zoom portfolio-thumb-square">
+                                            <a href="https://github.com/AfonsoSCCarvalho/AI_Drone"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <img src="images/project4_drone.png" alt="AI Drone project" class="img-fluid">
+                                            </a>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project5.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project6.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project7.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project8.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project9.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
+                                        <h5 class="mt-2">AI_Drone</h5>
+                                        <p class="small text-muted">Autonomous drone control with AI.</p>
                                     </div>
                                 </div>
                             </div>
+
+                            <!-- SLIDE 2 (only 2 squares) -->
                             <div class="swiper-slide">
                                 <div class="row">
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project10.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
+                                    <!-- 1. StockSense -->
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="image-zoom portfolio-thumb-square">
+                                            <a href="https://github.com/AfonsoSCCarvalho/StockSense"
+                                               target="_blank" rel="noopener noreferrer">
+                                                <img src="images/project5_stoksense.jpeg" alt="StockSense project" class="img-fluid">
+                                            </a>
                                         </div>
+                                        <h5 class="mt-2">StockSense</h5>
+                                        <p class="small text-muted">Time-series & market data intelligence.</p>
                                     </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project11.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
+
+                                    <!-- 2. Stay tuned -->
+                                    <div class="col-lg-6 col-md-6 mb-4">
+                                        <div class="image-zoom portfolio-thumb-square bg-dark">
+                                            <div class="portfolio-thumb-square-inner">
+                                                <span class="text-primary fw-bold fs-4">Stay tuned!</span>
+                                            </div>
                                         </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project3.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project4.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project5.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project6.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project7.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project8.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project9.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
+                                        <h5 class="mt-2">More coming soon</h5>
+                                        <p class="small text-muted">New AI & data projects are on the way.</p>
                                     </div>
                                 </div>
                             </div>
-                            <div class="swiper-slide">
-                                <div class="row">
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project1.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project2.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project3.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project4.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project5.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project6.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project7.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project8.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                    <div class="col-lg-4 mb-4">
-                                        <div class="image-zoom rounded-3">
-                                            <a href="portfolio-details.html"><img src="images/project9.jpg"
-                                                    alt="project-img" class="img-fluid rounded-3"></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
+
                         </div>
                         <div class="swiper-pagination position-static mt-3"></div>
                     </div>
@@ -380,10 +309,11 @@
         </div>
     </section>
 
+    <!-- SIDE NAV -->
     <nav id="side-nav" class="navbar-side p-3 p-lg-3 me-lg-5 text-center" data-bs-theme="dark">
         <ul class="navbar-nav">
             <li class="nav-item">
-                <a class="nav-link " aria-current="page" href="index.html">
+                <a class="nav-link" aria-current="page" href="index.html">
                     <svg width="24" height="24">
                         <use xlink:href="#home"></use>
                     </svg>
@@ -426,8 +356,7 @@
                 <ul class="dropdown-menu">
                     <li><a href="blog.html" class="dropdown-item">Blog <span class="badge bg-dark">Pro</span></a></li>
                     <li><a href="single-post.html" class="dropdown-item">Single-Post
-                            <span class="badge bg-dark">Pro</span></a>
-                    </li>
+                            <span class="badge bg-dark">Pro</span></a></li>
                     <li><a href="services.html" class="dropdown-item">Services <span
                                 class="badge bg-dark">Pro</span></a></li>
                     <li><a href="service-details.html" class="dropdown-item">Services-Details
@@ -438,7 +367,8 @@
                             <span class="badge bg-dark">Pro</span></a></li>
 
                     <li><a href="faqs.html" class="dropdown-item">FAQs <span class="badge bg-dark">Pro</span></a></li>
-                    <li><a href="https://templatesjungle.gumroad.com/l/natalie-developer-portfolio-html-css-website-template" target="_blank" class="dropdown-item fw-bold text-primary">Get PRO</a></li>
+                    <li><a href="https://templatesjungle.gumroad.com/l/natalie-developer-portfolio-html-css-website-template"
+                           target="_blank" class="dropdown-item fw-bold text-primary">Get PRO</a></li>
                 </ul>
             </li>
         </ul>
@@ -457,7 +387,6 @@
 
     <!--iconify script ================================================== -->
     <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.7/dist/iconify-icon.min.js"></script>
-
 
     <script src="js/plugins.js"></script>
     <script src="js/script.js"></script>
