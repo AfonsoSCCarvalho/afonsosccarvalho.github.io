@@ -614,3 +614,18 @@ button.filter-button:hover {
 .testimonial-swiper .swiper-pagination-bullet-active {
   transform: scale(1.1);
 }
+
+
+
+  /* Make sections on this page closer together */
+.section-compact {
+    padding-top: 0rem;
+    padding-bottom: 3rem;
+  }
+
+@media (min-width: 992px) {
+    .section-compact {
+      padding-top: 0rem;
+      padding-bottom: 2.5rem;
+    }
+  }
