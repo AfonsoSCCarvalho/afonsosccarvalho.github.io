@@ -70,7 +70,9 @@
     if ($('.portfolio-swiper').length) {
       new Swiper('.portfolio-swiper', {
         slidesPerView: 1,
-        spaceBetween: 30,
+        spaceBetween: 24,
+        autoHeight: true,                // 👈 key part: height adapts to each testimonial
+
         pagination: { el: '.swiper-pagination', clickable: true },
       });
     }
@@ -79,7 +81,8 @@
     if ($('.testimonial-swiper').length) {
       new Swiper('.testimonial-swiper', {
         slidesPerView: 1,
-        spaceBetween: 30,
+        autoHeight: true,                // 👈 key part: height adapts to each testimonial
+        spaceBetween: 24,
         pagination: { el: '.swiper-pagination', clickable: true },
       });
     }
@@ -99,3 +102,5 @@
   });
 
 })(jQuery);
+
+

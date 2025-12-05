@@ -555,13 +555,14 @@ button.filter-button:hover {
 }
 
 #hero {
-    position: relative;
-}
+    padding-top: 0.5rem;
+    padding-bottom: 10rem;
+  }
 /* Desktop hero photo position and size */
 @media (min-width: 992px) {
     .hero-photo-wrapper {
-        bottom: 2rem;     /* move up from bottom */
-        right: 2%;        /* move left from edge (0% = stuck to edge) */
+        bottom: -20rem;     /* move up from bottom */
+        right: 1rem;        /* move left from edge (0% = stuck to edge) */
         /* You can also use transform if you prefer fine-tuning:
            transform: translate(-2rem, 1rem);
         */
@@ -574,4 +575,42 @@ button.filter-button:hover {
         object-position: center; /* or "top", "bottom", etc. */
         border-radius: 16px; /* optional, just looks nice */
     }
+}
+
+
+
+/* Testimonial avatar size */
+.testimonial-avatar {
+  width: 100px;      /* adjust to taste */
+  height: 100px;
+  object-fit: cover;   /* keeps faces nicely framed */
+}
+
+
+/* --- More compact hero on the reviews page --- */
+.reviews-hero {
+  padding-top: 4rem;     /* was 10rem via .padding-medium */
+  padding-bottom: 4rem;
+}
+
+@media (max-width: 992px) {
+  .reviews-hero {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+  }
+}
+
+/* Compact bullets under the photos */
+.testimonial-swiper .swiper-pagination {
+  margin-top: 1rem !important;
+}
+
+.testimonial-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  margin: 0 3px;
+}
+
+.testimonial-swiper .swiper-pagination-bullet-active {
+  transform: scale(1.1);
 }
